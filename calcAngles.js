@@ -1,12 +1,12 @@
 const distances = [
-  78.4, 71.5, 60.2, 59.6, 156.2, 60.7, 41.5, 57.5, 57.1, 61.0, 64.4, 59.4, 65.4, 64.0, 63.9, 69.1, 69.3, 56.3
+  71.5, 60.2, 59.6, 156.2, 60.7, 41.5, 57.5, 57.1, 61.0, 64.4, 59.4, 65.4, 64.0, 63.9, 69.1, 69.3, 56.3, 78.4,
 ]
 
 function calculateCircleProperties(distances) {
   const numPoints = distances.length;
-  const maxError = 0.025;
+  const maxError = 0.0025;
   const maxAngleSum = 2 * Math.PI;
-  const adjustmentFactor = 0.02; // Factor to adjust radius incrementally
+  const adjustmentFactor = 0.0025; // Factor to adjust radius incrementally
 
   let stableError = 0;
 
@@ -17,7 +17,7 @@ function calculateCircleProperties(distances) {
   let error = Infinity;
   let angleSum = 0;
 
-  let i = 5000;
+  let i = 500000;
   
   while (i-- && stableError<10) {
     // Calculate angles using the current radius
@@ -74,15 +74,17 @@ console.log("Calculated Radius:", circleProperties.radius);
 console.log("Calculated Angles (degrees):", anglesInDegrees(circleProperties.angles));
 
 
-
-// Calculated Radius: 194.3 to 195.7
+i = 500000;
+adjustmentFactor = 0.0025;
+// Calculated Radius: 194.8 to 195.2
 // Calculated Angles (degrees): 
-//   '23.1', '21.1', '17.7',
-//   '17.5', '47.1', '17.9',
+//   '21.1', '17.7',
+//   '17.6', '47.2', '17.9',
 //   '12.2', '16.9', '16.8',
 //   '18.0', '19.0', '17.5',
-//   '19.3', '18.8', '18.8',
-//   '20.4', '20.4', '16.6'
+//   '19.3', '18.9', '18.8',
+//   '20.4', '20.4', '16.6',
+//   '23.2', 
 
-// angleSum: 358.6 to 361.3 degrees  (6.2587 to 6.3058 radians)
+// angleSum: 359.50 to 360.23 degrees  (6.2744 to 6.2872 radians)
 // Remember again, the final distances, 56.3 was generated and is unreliable
