@@ -75,8 +75,7 @@ const populate = () => {
   minima[15][18] = 190.7;
   minima[16][18] = 129.0;
 
-  console.log(range);
-  console.log(0, centres[0], 1, centres[1], 2, centres[2], 21, centres[2][1], 12, centres[1][2]);
+  minima[17][18] = 129.0; /// !!!! Unreliably generated figure for testing  !!!
 
   range.forEach(p => {
     range.forEach(q => {
@@ -108,7 +107,7 @@ const generateMissingPoint = (p, q) => {
     throw new Error(`We already have an accurate measurement between ${p} and ${q}. Deal with that first.`);
 
 
-  console.log('centres[p]', centres[p]);
+  // console.log('centres[p]', centres[p]);
   const centresFromP = [];
   centres[p].forEach((dist, r) => {
     console.log(p, r, dist);
@@ -136,7 +135,7 @@ const generateMissingPoint = (p, q) => {
   if (centresFromQ.length + minimaFromQ.length < 2)
     throw new Error(`From point ${q} ${centresFromQ.length + minimaFromQ.length}, only one or less distance found. Can't calculate accurately from one point. go subtract it yourself.`);
 
-  console.log({centresFromP, centresFromQ })
+  // console.log({centresFromP, centresFromQ })
 
   const centresWeHave = centresFromP
     .map(r => [p, r])
@@ -146,7 +145,7 @@ const generateMissingPoint = (p, q) => {
     .map(r => [p, r])
     .concat(minimaFromQ.map(r => [q, r]));
 
-  console.log({ centresWeHave, minimaWeHave });
+  // console.log({ centresWeHave, minimaWeHave });
 
   // can we use three centres to triangulate?
   const thirdPoints = range.filter(n => centres[n,p] && centre[n,q]);
@@ -172,7 +171,7 @@ const generateMissingPoint = (p, q) => {
     .filter(ctr => candidateMinima.includes(ctr))
     .map(ctr => {    
       if (centres[p],[ctr])
-        if (_) 
+        if (_) {}
     /// GAhh.. tired brain.
     /// For the set of all possible paths Q R S P where either PR or PS or QR or QS is a centre (and the rest are minima, obvs)
     /// identify which is the centre measured one, call it R and identify which of P or Q it is measured from.
@@ -182,19 +181,45 @@ const generateMissingPoint = (p, q) => {
 
   })
 
-  // And here
    
 
 
 };
 
 
+const calculateMissingDistance = (p, q, r, s) => {
+  // Assuming distances are retrieved from the global storage
+  const QR = centres[q][r] || minima[q][r];
+  const RS = centres[r][s] || minima[r][s];
+
+  if (QR === undefined || RS === undefined) {
+    throw new Error(`Distances between points are not available: QR (${QR}), RS (${RS})`);
+  }
+
+  // Use Ptolemy's theorem
+  const PS = (QR * RS) / (QR + RS);
+  
+  return PS;
+};
+
+
+
 populate ();
 console.log('/n/n/n/n');
 
-generateMissingPoint (17,18);
+// generateMissingPoint (17,18);
 
 // TODO compare generateMissingPoint with different error tolerances
 // - find out what the maximum combined error is.
+
+// const g1718a = calculateMissingDistance (17,18, 1, 16);
+// console.log (g1718a, 'from:', centres[16][17], centres[18][1], minima[1][16]);
+// const g1718b = calculateMissingDistance (17,18, 15, 16);
+// console.log (g1718b, 'from:', centres[16][17], centres[15][16], minima[15][18]);
+// const g1718c = calculateMissingDistance (17,18, 1, 2);
+// console.log (g1718c, 'from:', centres[18][1], centres[1][2], minima[17][2]);
+
+
+
 
 
