@@ -194,3 +194,7 @@ console.log('/n/n/n/n');
 
 generateMissingPoint (17,18);
 
+// TODO compare generateMissingPoint with different error tolerances
+// - find out what the maximum combined error is.
+
+
