@@ -9,6 +9,7 @@ const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
     arm: 5         // Default arm length
   };
   const { intDiam, stroke, colour, arm } = { ...hookDefaults, ...circleParams };
+  const decimalPlaces = 1;
 
 
   let total = 0;
@@ -24,7 +25,14 @@ const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
   const points = cumulativeAnglesInRadians.map(theta => {
       const x = 300 + radius * Math.sin(theta);
       const y = 300 + radius * Math.cos(theta);
-      return { x, y };
+      if (decimalPlaces===undefined)
+        return { x, y };
+      const dpMultiple =  10 ** decimalPlaces;
+      return { 
+        x : Math.floor(x*dpMultiple)/dpMultiple,
+        y : Math.floor(y*dpMultiple)/dpMultiple
+      };
+
   });
 
   // Create the SVG content
@@ -51,6 +59,7 @@ const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
       svgContent += `<text x="${textX}" y="${textY}" font-size="9" fill="${colour}" text-anchor="middle" alignment-baseline="middle">${1+(idx+1)%angles.length}</text>\n`;
     }
 
+    svgContent += '\n'
   })
 
   // Close the SVG tag

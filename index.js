@@ -180,10 +180,7 @@ const generateMissingPoint = (p, q) => {
 
 
   })
-
-   
-
-
+ 
 };
 
 
