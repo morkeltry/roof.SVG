@@ -1,74 +1,110 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
-<line x1="370.19937758340996" y1="481.9259392909704" x2="422.18774321606975" y2="451.97090316163747" stroke="black" />
-<circle cx="370.19937758340996" cy="481.9259392909704" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="370.19937758340996" y1="481.9259392909704" x2="371.9993616240102" y2="486.59070696509787" stroke="#600" stroke-width="1.3" />
-<text x="375.5993297052107" y="495.92024231335273" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">2</text>
-<line x1="422.18774321606975" y1="451.97090316163747" x2="462.4196419384694" y2="407.9113521024521" stroke="black" />
-<circle cx="422.18774321606975" cy="451.97090316163747" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="422.18774321606975" y1="451.97090316163747" x2="425.32076227289207" y2="455.8675929862948" stroke="#600" stroke-width="1.3" />
-<text x="431.58680038653665" y="463.6609726356096" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">3</text>
-<line x1="462.4196419384694" y1="407.9113521024521" x2="489.5323951128165" y2="254.14728794499499" stroke="black" />
-<circle cx="462.4196419384694" cy="407.9113521024521" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="462.4196419384694" y1="407.9113521024521" x2="466.5842481420199" y2="410.67830984866885" stroke="#600" stroke-width="1.3" />
-<text x="474.9134605491209" y="416.2122253411023" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">4</text>
-<line x1="489.5323951128165" y1="254.14728794499499" x2="466.264832049048" y2="198.11277988038998" stroke="black" />
-<circle cx="489.5323951128165" cy="254.14728794499499" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="489.5323951128165" y1="254.14728794499499" x2="494.3922001157093" y2="252.97157737948203" stroke="#600" stroke-width="1.3" />
-<text x="504.1118101214947" y="250.62015624845614" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">5</text>
-<line x1="466.264832049048" y1="198.11277988038998" x2="440.9785934523659" y2="165.27792984001266" stroke="black" />
-<circle cx="466.264832049048" cy="198.11277988038998" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="466.264832049048" y1="198.11277988038998" x2="470.52803287081844" y2="195.50028705681024" stroke="#600" stroke-width="1.3" />
-<text x="479.05443451435934" y="190.27530140965075" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">6</text>
-<line x1="440.9785934523659" y1="165.27792984001266" x2="395.7262319549525" y2="130.11330683156308" stroke="black" />
-<circle cx="440.9785934523659" cy="165.27792984001266" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="440.9785934523659" y1="165.27792984001266" x2="444.59342918191373" y2="161.82351778462836" stroke="#600" stroke-width="1.3" />
-<text x="451.82310064100943" y="154.9146936738598" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">7</text>
-<line x1="395.7262319549525" y1="130.11330683156308" x2="342.53793207232576" y2="109.69623142194425" stroke="black" />
-<circle cx="395.7262319549525" cy="130.11330683156308" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="395.7262319549525" y1="130.11330683156308" x2="398.1807507230282" y2="125.75723777596214" stroke="#600" stroke-width="1.3" />
-<text x="403.0897882591796" y="117.04509966476024" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">8</text>
-<line x1="342.53793207232576" y1="109.69623142194425" x2="281.6488789028897" y2="105.8654169023994" stroke="black" />
-<circle cx="342.53793207232576" cy="109.69623142194425" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="342.53793207232576" y1="109.69623142194425" x2="343.6286482793085" y2="104.8166476122505" stroke="#600" stroke-width="1.3" />
-<text x="345.8100806932739" y="95.05747999286304" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">9</text>
-<line x1="281.6488789028897" y1="105.8654169023994" x2="219.44463618421435" y2="122.41668614279547" stroke="black" />
-<circle cx="281.6488789028897" cy="105.8654169023994" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="281.6488789028897" y1="105.8654169023994" x2="281.17833733629715" y2="100.887607079384" stroke="#600" stroke-width="1.3" />
-<text x="280.237254203112" y="90.9319874333532" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">10</text>
-<line x1="219.44463618421435" y1="122.41668614279547" x2="169.77265168314588" y2="154.85924848492496" stroke="black" />
-<circle cx="219.44463618421435" cy="122.41668614279547" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="219.44463618421435" y1="122.41668614279547" x2="217.37911403509165" y2="117.86326783876459" stroke="#600" stroke-width="1.3" />
-<text x="213.24806973684622" y="108.75643123070282" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">11</text>
-<line x1="169.77265168314588" y1="154.85924848492496" x2="129.1201973914466" y2="206.05803355016553" stroke="black" />
-<circle cx="169.77265168314588" cy="154.85924848492496" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="169.77265168314588" y1="154.85924848492496" x2="166.43348890579065" y2="151.1376907537692" stroke="#600" stroke-width="1.3" />
-<text x="159.75516335108017" y="143.69457529145765" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">12</text>
-<line x1="129.1201973914466" y1="206.05803355016553" x2="107.9036813998191" y2="266.4738254455151" stroke="black" />
-<circle cx="129.1201973914466" cy="206.05803355016553" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="129.1201973914466" y1="206.05803355016553" x2="124.73866399122727" y2="203.64926517965696" stroke="#600" stroke-width="1.3" />
-<text x="115.97559719078865" y="198.8317284386398" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">13</text>
-<line x1="107.9036813998191" y1="266.4738254455151" x2="107.34782617496916" y2="330.1685253283964" stroke="black" />
-<circle cx="107.9036813998191" cy="266.4738254455151" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="107.9036813998191" y1="266.4738254455151" x2="102.97813476904524" y2="265.61417994411806" stroke="#600" stroke-width="1.3" />
-<text x="93.1270415074975" y="263.894888941324" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">14</text>
-<line x1="107.34782617496916" y1="330.1685253283964" x2="129.94649187573648" y2="395.429578091025" stroke="black" />
-<circle cx="107.34782617496916" cy="330.1685253283964" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="107.34782617496916" y1="330.1685253283964" x2="102.40802684612221" y2="330.9420772598938" stroke="#600" stroke-width="1.3" />
-<text x="92.52842818842832" y="332.48918112288845" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">15</text>
-<line x1="129.94649187573648" y1="395.429578091025" x2="173.87599299546036" y2="448.7203242906592" stroke="black" />
-<circle cx="129.94649187573648" cy="395.429578091025" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="129.94649187573648" y1="395.429578091025" x2="125.58614551357589" y2="397.87649034976926" stroke="#600" stroke-width="1.3" />
-<text x="116.86545278925468" y="402.7703148672577" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">16</text>
-<line x1="173.87599299546036" y1="448.7203242906592" x2="221.62018355208772" y2="478.5542057012144" stroke="black" />
-<circle cx="173.87599299546036" cy="448.7203242906592" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="173.87599299546036" y1="448.7203242906592" x2="170.64204409790807" y2="452.5336659391377" stroke="#600" stroke-width="1.3" />
-<text x="164.17414630280348" y="460.16034923609453" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">17</text>
-<line x1="221.62018355208772" y1="478.5542057012144" x2="298.29832557781714" y2="494.99257499751343" stroke="black" />
-<circle cx="221.62018355208772" cy="478.5542057012144" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="221.62018355208772" y1="478.5542057012144" x2="219.61044466880793" y2="483.1325186679122" stroke="#600" stroke-width="1.3" />
-<text x="215.5909669022483" y="492.28914460130784" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">18</text>
-<line x1="298.29832557781714" y1="494.99257499751343" x2="370.19937758340996" y2="481.9259392909704" stroke="black" />
-<circle cx="298.29832557781714" cy="494.99257499751343" r="2" fill="none" stroke="#600" stroke-width="1.3" />
-<line x1="298.29832557781714" y1="494.99257499751343" x2="298.25469290032527" y2="499.9923846128343" stroke="#600" stroke-width="1.3" />
-<text x="298.1674275453415" y="509.992003843476" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">1</text>
+<line x1="370.2" y1="481.9" x2="422.2" y2="452" stroke="black" />
+<circle cx="370.2" cy="481.9" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="370.2" y1="481.9" x2="372" y2="487" stroke="#600" stroke-width="1.3" />
+<text x="376" y="496" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">2</text>
+<text x="406" y="484" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">60cm</text>
+
+<line x1="422.2" y1="452" x2="462.4" y2="407.9" stroke="black" />
+<circle cx="422.2" cy="452" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="422.2" y1="452" x2="425" y2="456" stroke="#600" stroke-width="1.3" />
+<text x="432" y="464" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">3</text>
+<text x="457" y="443" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">59.7cm</text>
+
+<line x1="462.4" y1="407.9" x2="489.5" y2="254.1" stroke="black" />
+<circle cx="462.4" cy="407.9" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="462.4" y1="407.9" x2="467" y2="411" stroke="#600" stroke-width="1.3" />
+<text x="475" y="416" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">4</text>
+<text x="494" y="334" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">156.2cm</text>
+
+<line x1="489.5" y1="254.1" x2="466.3" y2="198.1" stroke="black" />
+<circle cx="489.5" cy="254.1" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="489.5" y1="254.1" x2="494" y2="253" stroke="#600" stroke-width="1.3" />
+<text x="504" y="251" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">5</text>
+<text x="496" y="219" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">60.6cm</text>
+
+<line x1="466.3" y1="198.1" x2="441" y2="165.3" stroke="black" />
+<circle cx="466.3" cy="198.1" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="466.3" y1="198.1" x2="471" y2="195" stroke="#600" stroke-width="1.3" />
+<text x="479" y="190" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">6</text>
+<text x="469" y="170" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">41.4cm</text>
+
+<line x1="441" y1="165.3" x2="395.7" y2="130.1" stroke="black" />
+<circle cx="441" cy="165.3" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="441" y1="165.3" x2="445" y2="162" stroke="#600" stroke-width="1.3" />
+<text x="452" y="155" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">7</text>
+<text x="431" y="132" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">57.4cm</text>
+
+<line x1="395.7" y1="130.1" x2="342.5" y2="109.7" stroke="black" />
+<circle cx="395.7" cy="130.1" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="395.7" y1="130.1" x2="398" y2="126" stroke="#600" stroke-width="1.3" />
+<text x="403" y="117" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">8</text>
+<text x="376" y="101" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">57cm</text>
+
+<line x1="342.5" y1="109.7" x2="281.6" y2="105.9" stroke="black" />
+<circle cx="342.5" cy="109.7" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="342.5" y1="109.7" x2="344" y2="105" stroke="#600" stroke-width="1.3" />
+<text x="346" y="95" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">9</text>
+<text x="313" y="88" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">61cm</text>
+
+<line x1="281.6" y1="105.9" x2="219.4" y2="122.4" stroke="black" />
+<circle cx="281.6" cy="105.9" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="281.6" y1="105.9" x2="281" y2="101" stroke="#600" stroke-width="1.3" />
+<text x="280" y="91" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">10</text>
+<text x="245" y="95" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">64.4cm</text>
+
+<line x1="219.4" y1="122.4" x2="169.8" y2="154.9" stroke="black" />
+<circle cx="219.4" cy="122.4" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="219.4" y1="122.4" x2="217" y2="118" stroke="#600" stroke-width="1.3" />
+<text x="213" y="109" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">11</text>
+<text x="184" y="122" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">59.3cm</text>
+
+<line x1="169.8" y1="154.9" x2="129.1" y2="206.1" stroke="black" />
+<circle cx="169.8" cy="154.9" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="169.8" y1="154.9" x2="166" y2="151" stroke="#600" stroke-width="1.3" />
+<text x="160" y="144" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">12</text>
+<text x="134" y="168" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">65.4cm</text>
+
+<line x1="129.1" y1="206.1" x2="107.9" y2="266.5" stroke="black" />
+<circle cx="129.1" cy="206.1" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="129.1" y1="206.1" x2="125" y2="204" stroke="#600" stroke-width="1.3" />
+<text x="116" y="199" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">13</text>
+<text x="100" y="230" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">64cm</text>
+
+<line x1="107.9" y1="266.5" x2="107.3" y2="330.2" stroke="black" />
+<circle cx="107.9" cy="266.5" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="107.9" y1="266.5" x2="103" y2="266" stroke="#600" stroke-width="1.3" />
+<text x="93" y="264" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">14</text>
+<text x="88" y="298" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">63.7cm</text>
+
+<line x1="107.3" y1="330.2" x2="129.9" y2="395.4" stroke="black" />
+<circle cx="107.3" cy="330.2" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="107.3" y1="330.2" x2="102" y2="331" stroke="#600" stroke-width="1.3" />
+<text x="92" y="333" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">15</text>
+<text x="100" y="369" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">69cm</text>
+
+<line x1="129.9" y1="395.4" x2="173.9" y2="448.7" stroke="black" />
+<circle cx="129.9" cy="395.4" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="129.9" y1="395.4" x2="126" y2="398" stroke="#600" stroke-width="1.3" />
+<text x="117" y="403" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">16</text>
+<text x="137" y="435" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">69.1cm</text>
+
+<line x1="173.9" y1="448.7" x2="221.6" y2="478.6" stroke="black" />
+<circle cx="173.9" cy="448.7" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="173.9" y1="448.7" x2="171" y2="453" stroke="#600" stroke-width="1.3" />
+<text x="164" y="460" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">17</text>
+<text x="187" y="480" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">56.3cm</text>
+
+<line x1="221.6" y1="478.6" x2="298.3" y2="495" stroke="black" />
+<circle cx="221.6" cy="478.6" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="221.6" y1="478.6" x2="220" y2="483" stroke="#600" stroke-width="1.3" />
+<text x="216" y="492" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">18</text>
+<text x="256" y="506" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">78.4cm</text>
+
+<line x1="298.3" y1="495" x2="370.2" y2="481.9" stroke="black" />
+<circle cx="298.3" cy="495" r="2" fill="none" stroke="#600" stroke-width="1.3" />
+<line x1="298.3" y1="495" x2="298" y2="500" stroke="#600" stroke-width="1.3" />
+<text x="298" y="510" font-size="9" fill="#600" text-anchor="middle" alignment-baseline="middle">1</text>
+<text x="338" y="508" font-size="7" fill="#0" text-anchor="middle" alignment-baseline="middle">73.1cm</text>
+
 </svg>

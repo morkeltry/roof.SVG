@@ -1,5 +1,8 @@
 const fs = require('fs');
 
+const decimalPlaces = 1;
+const dpMultiple =  10 ** decimalPlaces;
+
 const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
 
   const hookDefaults = {
@@ -9,8 +12,8 @@ const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
     arm: 5         // Default arm length
   };
   const { intDiam, stroke, colour, arm } = { ...hookDefaults, ...circleParams };
-  const decimalPlaces = 1;
-
+  const decimalPlaces = 2;
+  const showOuterLengths = true;
 
   let total = 0;
   const cumulativeAngles = angles.map(segmentAngle => {
@@ -26,14 +29,16 @@ const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
       const x = 300 + radius * Math.sin(theta);
       const y = 300 + radius * Math.cos(theta);
       if (decimalPlaces===undefined)
-        return { x, y };
-      const dpMultiple =  10 ** decimalPlaces;
-      return { 
-        x : Math.floor(x*dpMultiple)/dpMultiple,
-        y : Math.floor(y*dpMultiple)/dpMultiple
-      };
-
+        return { x, y }
+      else
+        return { 
+          x : Math.round(x*dpMultiple)/dpMultiple,
+          y : Math.round(y*dpMultiple)/dpMultiple
+        };
   });
+
+  console.log({points});
+  
 
   // Create the SVG content
   let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">\n`;
@@ -50,13 +55,30 @@ const generateSVG = (angles, radius, fileName = 'roooof.svg', circleParams) => {
     if (arm) {
       const armEndX = p.x + (p.x - 300) / radius * arm;
       const armEndY = p.y + (p.y - 300) / radius * arm;
-      svgContent += `<line x1="${p.x}" y1="${p.y}" x2="${armEndX}" y2="${armEndY}" stroke="${colour}" stroke-width="${stroke}" />\n`;
+      svgContent += `<line x1="${p.x}" y1="${p.y}" x2="${Math.round(armEndX)}" y2="${Math.round(armEndY)}" stroke="${colour}" stroke-width="${stroke}" />\n`;
     }
     if (true) {
       const textOffset = 10;
       const textX = p.x + (p.x - 300) / radius * (textOffset + (arm | 0));
       const textY = p.y + (p.y - 300) / radius * (textOffset + (arm | 0));
-      svgContent += `<text x="${textX}" y="${textY}" font-size="9" fill="${colour}" text-anchor="middle" alignment-baseline="middle">${1+(idx+1)%angles.length}</text>\n`;
+      svgContent += `<text x="${Math.round(textX)}" y="${Math.round(textY)}" font-size="9" fill="${colour}" text-anchor="middle" alignment-baseline="middle">${1+(idx+1)%angles.length}</text>\n`;
+    }
+    if (showOuterLengths) {
+      const midPoint = 
+        decimalPlaces===undefined
+          ? {
+            x : (nextP.x+p.x)/2,
+            y : (nextP.y+p.y)/2
+          }
+          : {
+            x : Math.round( (nextP.x+p.x)*dpMultiple/2 )/dpMultiple,
+            y : Math.round( (nextP.y+p.y)*dpMultiple/2 )/dpMultiple
+          };
+      const outerEdgeLength = Math.round( Math.sqrt((nextP.x- p.x)**2 + (nextP.y- p.y)**2) *dpMultiple)/dpMultiple;
+      const textOffset = 10;
+      const textX = midPoint.x + (midPoint.x - 300) / radius * (textOffset + (arm*2 | 0));
+      const textY = midPoint.y + (midPoint.y - 300) / radius * (textOffset + (arm*2 | 0));
+      svgContent += `<text x="${Math.round(textX)}" y="${Math.round(textY)}" font-size="7" fill="${ '#0' }" text-anchor="middle" alignment-baseline="middle">${outerEdgeLength}${true ? 'cm' : ''}</text>\n`;
     }
 
     svgContent += '\n'
